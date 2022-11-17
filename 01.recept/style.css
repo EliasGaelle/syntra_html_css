@@ -1,0 +1,73 @@
+
+body{
+    background-color: rgb(241, 206, 154);
+}
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(244, 227, 201);
+    
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(244, 227, 201);}
+p{
+   padding-left: 100px;
+   padding-right: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(154, 104, 5);
+}
+.p1{
+    margin-top: 160px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(154, 104, 5);
+}
+li:hover{
+    color: rgb(149, 206, 35);
+}
+hr{
+   border: 10px dotted rgb(244, 227, 201);
+   
+   
+}
+.link{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color:  rgb(244, 227, 201);
+}
+a:hover {
+    color: rgb(154, 104, 5); 
+  }
+.hummus2{
+    text-align:center;
+ display:block;
+ height: 40px;
+ width: auto;
+
+}
+
+ul li{
+    text-align:center;
+    list-style-position: inside;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(154, 104, 5);
+    font-weight: bold;
+    
+}
+ol li{
+    text-align:center;
+    list-style-position: inside;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(154, 104, 5);
+    font-weight: bold;
+    
+}

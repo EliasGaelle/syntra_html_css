@@ -1,0 +1,51 @@
+body {
+  margin: 70px;
+  background-color: black;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+.wrapper {
+  /* dan is het maximum 1000 maar bij verkleinen gaat de inhoud mee kleiner schalen */
+  max-width: 1000px;
+  padding: 70px;
+  background-color: white;
+  height: 100%;
+}
+header {
+  font-family: "Arial Narrow Bold", Helvetica, sans-serif;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+header h2 {
+  font-size: 25px;
+  color: #dc1327;
+}
+
+header h1,
+header h2 {
+  font-weight: bold;
+  margin: 0;
+}
+
+footer {
+  padding: 27px;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+
+  justify-content: center;
+}
+
+section {
+  border-bottom: 1px solid;
+  padding: 5px;
+}
+
+#tesla-car {
+  width: 100%; 
+}

@@ -1,0 +1,12 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "oef html ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "surge":"surge . gaelle_html-css_syntra_2023.surge.sh"
+  },
+  "author": "Gaëlle Elias",
+  "license": "ISC"
+}
