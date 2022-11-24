@@ -88,15 +88,23 @@ i.fa {
 
 .parent {
   display: grid;
-  grid-template-columns: repeat(4, max-content);
-  grid-template-rows: repeat(5, max-content);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 5, max-content;
   grid-gap: 20px;
   justify-content: center;
 }
-
+section div img {
+  width: 200px;
+  height: 200px;
+  transition: width 2s;
+}
+section div img:hover {
+  width: 250px;
+}
 article {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 article div {
   width: 285px;

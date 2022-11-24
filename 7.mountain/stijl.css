@@ -1,0 +1,118 @@
+/* drie basisstijlregels om je te helpen */
+:root {
+  font-size: 100%; /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* hier komt jouw css */
+
+main {
+  background-image: url(images/background.jpg);
+}
+
+nav {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav li {
+  font-size: 80%;
+  padding: 20px;
+  font-family: montserrat;
+  display: inline;
+  color: white;
+}
+
+.logofont {
+  font-family: Raleway;
+  font-size: 34px;
+  color: rgb(255, 255, 255);
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(fonts/Raleway/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+nav :hover {
+  color: #998675;
+}
+
+article h1 {
+  font-family: raleway;
+  src: url(fonts/Raleway/Raleway-Medium.ttf);
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+article h2 {
+  font-family: raleway;
+  src: url(fonts/Raleway/Raleway-ExtraBold.ttf);
+  font-size: 52px;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+article h3 {
+  font-family: montserrat;
+  src: url(fonts/Montserrat/Montserrat-Light.ttf);
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+nav div h1 {
+  font-family: raleway;
+  src: url(fonts/Raleway/Raleway-Regular.ttf);
+  font-size: 34px;
+  color: white;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+button {
+  background-color: #998675;
+  border-radius: 2px;
+  border-style: none;
+  display: flex;
+  align-content: center;
+  width: auto;
+  height: 20px;
+  font-family: raleway;
+  src: url(fonts/Raleway/Raleway-ExtraBold.ttf);
+  font-size: 14px;
+  color: white;
+  font-weight: bolder;
+}
+footer {
+  background-color: white;
+}
+footer article {
+  display: flex;
+  flex-direction: row;
+}
+footer article div p h1 {
+  font-family: raleway;
+  src: url(fonts/Raleway/Raleway-SemiBold.ttf);
+  font-size: 22px;
+  color: #998675;
+}
+footer article div img {
+  display: flex;
+  align-items: center;
+}
