@@ -12,107 +12,119 @@ html {
 }
 
 /* hier komt jouw css */
-
-main {
-  background-image: url(images/background.jpg);
-}
-
 nav {
   display: flex;
   padding: 20px;
   justify-content: space-around;
   align-items: center;
 }
-
 nav li {
-  font-size: 80%;
-  padding: 20px;
-  font-family: montserrat;
   display: inline;
+  padding: 20px;
   color: white;
+  font-family: Montseratt;
+  font-size: 80%;
 }
-
-.logofont {
-  font-family: Raleway;
-  font-size: 34px;
-  color: rgb(255, 255, 255);
-}
-
-@font-face {
-  font-family: Raleway;
-  src: url(fonts/Raleway/Raleway-Regular.ttf);
-}
-@font-face {
-  font-family: montserrat;
-  src: url(fonts/Montserrat/Montserrat-Light.ttf);
-}
-
 nav :hover {
-  color: #998675;
+  color: rgba(153, 134, 117, 255);
 }
-
-article h1 {
-  font-family: raleway;
-  src: url(fonts/Raleway/Raleway-Medium.ttf);
-  font-size: 36px;
-  color: white;
-  text-align: center;
-  margin-top: 30px;
+.font {
+  font-family: Raleway;
+  font-size: 200%;
 }
-article h2 {
-  font-family: raleway;
-  src: url(fonts/Raleway/Raleway-ExtraBold.ttf);
-  font-size: 52px;
-  color: white;
-  text-align: center;
-  padding: 25px;
+.img1 {
+  size: 80%;
 }
-article h3 {
-  font-family: montserrat;
-  src: url(fonts/Montserrat/Montserrat-Light.ttf);
-  font-size: 16px;
-  color: white;
-  text-align: center;
-}
-nav div h1 {
-  font-family: raleway;
+@font-face {
+  font-family: Raleway;
   src: url(fonts/Raleway/Raleway-Regular.ttf);
-  font-size: 34px;
+}
+@font-face {
+  font-family: Raleway2;
+  src: url(fonts/Raleway/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: Raleway3;
+  src: url(fonts/Raleway/Raleway-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Raleway4;
+  src: url(fonts/Raleway/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: Montseratt;
+  src: url(fonts/Montserrat/Montserrat-Light.ttf);
+}
+header {
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+header article {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  text-align: center;
+  gap: 20px;
   color: white;
 }
-.right {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+header article h1 {
+  font-size: 36px;
+  font-family: Raleway2;
 }
-button {
-  background-color: #998675;
+header article h2 {
+  font-size: 56px;
+  font-family: Raleway3;
+}
+header article p {
+  font-size: 16px;
+  margin-top: 15px;
+  font-family: Montseratt;
+}
+header article button {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: Raleway3;
+}
+header article button {
+  background-color: rgba(153, 134, 117, 255);
+  color: white;
   border-radius: 2px;
   border-style: none;
-  display: flex;
-  align-content: center;
-  width: auto;
-  height: 20px;
-  font-family: raleway;
-  src: url(fonts/Raleway/Raleway-ExtraBold.ttf);
-  font-size: 14px;
-  color: white;
-  font-weight: bolder;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-footer {
-  background-color: white;
+button:hover {
+  background-color: chocolate;
 }
-footer article {
-  display: flex;
-  flex-direction: row;
+main article {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-footer article div p h1 {
-  font-family: raleway;
-  src: url(fonts/Raleway/Raleway-SemiBold.ttf);
+main article h5 {
+  font-family: Raleway;
   font-size: 22px;
-  color: #998675;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-footer article div img {
+main article p {
+  font-family: Montseratt;
+  font-size: 14px;
+}
+main article:hover {
+  color: rgba(153, 134, 117, 255);
+}
+.parent {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: (5, max-content);
+  grid-gap: 10px;
+}
+.arrows {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }

@@ -1,10 +1,10 @@
-SELECT
-    *
+SELECT 
+    w.WEDSTRIJDNR,
+    CASE
+        WHEN w.gewonnen > w.verloren THEN 'gewonnen'
+    END AS resultaat
 FROM
-    tblManufacturers;
-    
-    UPDATE tblManufacturers 
-SET 
-    name = 'fisher'
-WHERE
-    id = 100
+    wedstrijden AS w
+        INNER JOIN
+   
+
